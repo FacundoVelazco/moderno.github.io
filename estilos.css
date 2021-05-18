@@ -1,0 +1,142 @@
+body{
+    background-color: #1B2127 !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fjalla One',sans-serif, Times, serif;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    line-height: 1.5em;
+}
+h1 strong{
+    color: #0061F6;
+}   
+.hero{
+    /* #124559 */
+    /* rubi #9A031E */
+    /* rubi mas lindo #A31621*/
+    background-color: #124559;
+}
+.texto_presentacion{
+    padding-left: 2%;
+}
+.portfolio{
+    background-color: #124559;
+}
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+.project_title {
+    color: white;
+    font-family: 'Open Sans';
+}
+.project_technologies {
+    color: white;
+    font-weight: normal;
+}
+.project_technologies strong{
+    color: #0061F6;
+}
+.project_description, .project_date, .project_git{
+    color: white;
+    text-decoration: none;
+}
+.project_description strong{
+    color: #0061F6;
+}
+
+.experiencia{
+    background-color: #124559;
+    /* background-color: #262e38; */
+}
+.titulo_experiencia{
+    margin: 0 0;
+    padding-top: 2%
+}
+.texto_articulo_experiencia h3{
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 24px;
+}
+.texto_articulo_experiencia h5{
+    color: white;
+    font-weight: normal; 
+}
+.texto_articulo_experiencia p{
+    color: white;
+    text-decoration: none;
+}
+.texto_articulo_experiencia h5 strong, p strong{
+    color: #0061F6;
+}
+.contacto{
+    padding: 2% 1%;
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #262e38;
+}
+.form{
+    display: block;
+}
+form{
+    display: flex;
+    justify-content:center; 
+}
+form label{
+    padding-right: 2%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    justify-self: flex-start;
+    white-space:nowrap;
+}
+#email_text{
+    vertical-align: middle;
+}
+#email_button{
+    vertical-align: middle;
+}
+.social1{
+    justify-self: flex-start;
+    display: inline-block;
+}
+.social2{
+    justify-self: flex-end;
+    display: inline-block;
+}
+.social-instagram{
+    display: block;
+    background-image: url('./instagram.svg');
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+}
+.social-github{
+    display: block;
+    background-image: url('./github.svg');
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+}
+footer{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+::marker {
+    color: #0E0E0E;
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px;
+    text-align: start;
+    text-align-last: start;
+}
